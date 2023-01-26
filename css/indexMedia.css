@@ -1,0 +1,255 @@
+/* header for mobile */
+
+@media screen and (min-width : 200px) and (max-width: 567px) {
+  nav .navbar-brand {
+    margin-left: 0.5rem;
+  }
+
+
+  .navbar-toggler {
+
+    margin-right: -8.9rem;
+    border: none;
+
+  }
+
+  .myName {
+    position: relative;
+    top: -1rem;
+  }
+
+  .myName h4 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+
+  }
+
+  .myName h1 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+
+  }
+
+  .myName h5 {
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+
+  }
+
+  .title-image {
+
+    width: 90%;
+    position: relative;
+    left: 1rem;
+    top: -3rem;
+  }
+
+  .myBtns{
+    position: relative;
+    top: -1rem;
+  }
+
+  .myBtns .abtMe {
+    position: relative;
+    left: -1.5rem;
+    top: -9rem;
+    display: block;
+    margin: 0 auto 8px;
+    padding: 6px 47px;
+    font-size: small;
+
+  }
+
+  .myBtns .downloadcv {
+    position: relative;
+    left: -1.5rem;
+    top: -9rem;
+    display: block;
+    margin: 0 auto 8px;
+    padding: 6px 36px;
+    font-size: small;
+  }
+
+   .hr-hero{
+    display: none;
+  }
+
+  #about-me .aboutMe-heading{
+
+    margin: 0;
+  }
+
+  #about-me .aboutme-img{
+
+    width: 50%;
+    margin: 0 0 0 2rem;
+    position: relative;
+    bottom: 10rem;
+  }
+
+  
+  .aboutMe-para .profile {
+    position: relative;
+    top: 12rem;
+    right: 13rem;
+    line-height: 1;
+  }
+
+  .profile-about {
+    margin-right: 13.5rem;
+    width: 100%;
+    line-height: 1;
+}
+
+.aboutMe-para .nameIntro{
+  position: relative;
+  top: 12rem;
+  left: 15rem;
+  width: 60%;
+
+}
+
+.aboutMe-para .role{
+  position: relative;
+  top: 12rem;
+  left: 24.7rem;
+  width: 60%;
+  font-size:1.3rem;
+
+}
+
+
+
+  .skills-myBtns .hireMe {
+    display: block;
+    margin: auto;
+    padding: 6px 36px;
+    margin-bottom: 8px;
+
+
+  }
+
+  .skills-myBtns .downloadcv {
+    display: block;
+    margin: auto;
+    padding: 6px 16px;
+    margin-bottom: 8px;
+
+  }
+  
+  .skills-myBtns .projectBtn {
+    display: block;
+    margin: auto;
+    padding: 6px 22px;
+    margin-bottom: 8px;
+
+  }
+
+
+/* education timline container */
+  
+  .container{
+    position: relative;
+    top: 10rem;
+    right: 1.5rem;
+    width: 26rem;
+  }
+ 
+
+
+  .aboutMe-para .educationCap {
+    position: relative;
+    top: 15rem;
+    left: 5rem;
+  }
+
+  .aboutMe-para .educationHeading{
+
+    position: relative;
+    top: 9rem;
+    left: 8rem;
+  }
+
+  .education .titleMain{
+    margin: 0;
+  }
+
+  .footerBtn {
+    margin-left: -2rem;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 820px) {
+
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: gray;
+}
+
+.timeline ul li {
+  width: 50%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timeline ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-30px);
+  border-radius: 20px 0px 20px 20px;
+}
+
+.timeline ul li:nth-child(even) {
+  float: right;
+  clear: left;
+  transform: translateX(30px);
+  border-radius: 0px 20px 20px 20px;
+}
+
+.timeline ul li::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  top: 0px;
+}
+
+.timeline ul li:nth-child(odd)::before {
+  transform: translate(50%, -50%);
+  right: -30px;
+}
+
+.timeline ul li:nth-child(even)::before {
+  transform: translate(-50%, -50%);
+  left: -30px;
+}
+
+.timeline-content .date {
+  position: absolute;
+  top: -30px;
+}
+
+.timeline ul li:hover::before {
+  background-color: #38E54D;
+}
+}

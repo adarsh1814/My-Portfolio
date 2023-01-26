@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+/* Hero section headings */
+
+.myName {
+    padding-top: 4rem;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    margin-left: 5rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: #EF7869;
+    text-decoration: none !important;
+
+}
+
+h1:hover {
+    color: #03C988;
+}
+
+.myName a {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    font-family: 'Neuton';
+}
+
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 5rem;
+    font-size: 1.6rem;
+
+}
+
+/* about me section headings */
+
+h5.aboutMe-heading {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+    color: #adb5bd;
+    position: relative;
+    margin-top: 5rem;
+}
+
+
+
+/* Hero section images */
+
+.title-image {
+    width: 40%;
+    position: absolute;
+    right: 9%;
+    top: 5rem;
+    
+
+}
+
+
+
+/* navbar------------------- */
+
+nav .navbar-brand {
+    font-family: 'pacifico';
+    font-size: 35px;
+    margin-left: 2.5rem;
+}
+
+nav .navbar-brand:hover {
+    color: #EF7869;
+}
+
+.navbar {
+    font-size: 20px;
+    padding-right: 8rem;
+
+}
+
+.nav-item {
+    font-family: 'Ubuntu';
+    margin: 0 20px 0 20px;
+}
+
+/* horizontal rule -hero page */
+
+.hr-top {
+    margin: 0;
+}
+
+/* --------------- */
+
+nav .nav-item a:hover {
+
+    color: #EF7869 !important;
+}
+
+
+/* hero buttons------------ */
+
+.myBtns {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    position: relative;
+
+}
+
+.downloadcv {
+    margin-left: 2rem;
+}
+.projectBtn{
+  margin-left: 2rem;
+}
+
+hr.hr-hero {
+    border-style: dotted none none;
+    border-color: grey;
+    width: 7%;
+    border-width: thick;
+    margin-top: 150px;
+    margin-left: 50%;
+    margin-bottom: 50px;
+}
+
+/* about me section-------------- */
+
+#about-me .aboutme-img {
+    width: 15%;
+    border: 5px solid;
+    border-radius: 100%;
+    transform: rotate(10deg);
+    display: inline-block;
+    position: relative;
+    left: 4rem;
+    top: 3px;
+    Box-Shadow: 5px 5px 20px Rgba(0,0,0,1.5);
+}
+
+
+#about-me {
+    position: relative;
+
+}
+
+#about-me .aboutMe-para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align:center ;
+    position: relative;
+    top: -11rem;
+    left: -10rem;
+    color: white;
+
+}
+
+.aboutMe-para .role{
+    font-family: 'Neuton' ;
+    margin-left: -10rem;
+    font-size: 20px;
+    color: #03C988;
+
+}
+
+.aboutMe-para .profile{
+    font-size: 18px;
+    width:65%;
+    margin-left: 27.5rem;
+    line-height: 1;
+    word-spacing: 3px;
+}
+
+.profile-about{
+
+  margin-right: 13.5rem;
+}
+
+/* -----------------education  section --------------------- */
+
+.aboutMe-para .educationHeading{
+    position: relative;
+    font-size: 25px;
+    right:10rem;
+    top: -4rem ;
+    font-family: 'ubuntu';
+    color: #03C988;
+    
+    
+}
+
+.aboutMe-para .educationCap{
+  position: relative;
+  left: -13rem;
+  top: 38px;
+    width: 45px;
+}
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    
+    
+  }
+  .education .title{
+    color: #03C988;
+    font-size: 18px;
+    margin-left: 9px;
+
+  }
+
+  .education .titleMain{
+    color: #03C988;
+    font-size: 18px;
+    margin-right:55px ;
+
+  }
+
+  .timeline{
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: -110px 0 0 284px;
+    position: relative;
+  }
+  
+  .timeline ul {
+    list-style: none;
+  }
+  .timeline ul li {
+    padding: 20px;
+    background-color: #1e1f22;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .timeline ul li:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-content h1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .timeline-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+  .timeline-content .date {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  
+  /* skills section---------------- */
+.skills-heading h4{
+  color: #03C988;
+  position: relative;
+  font-size: 25px;
+  left: 12rem;
+  top: -263px;
+  font-family: 'ubuntu';
+  color: #03C988;
+}
+.skills-heading .skills-img{
+  position: relative;
+  top: -10rem;
+  left: 13rem;
+    width: 50px;
+}
+
+  .Skill-Bars{
+    margin-top: -12rem;
+    Padding: 30px 30px;
+    Width: 700px; 
+    Height: 400px;
+    Box-Shadow: 5px 5px 20px Rgba(0,0,0,0.2);
+    Border-Radius: 10px;
+    margin-left: 300px;
+    Margin-Bottom: 100px;
+  }
+  .Bar{
+    Margin: 20px 0;
+    Padding: 8px 0;
+  }
+  .Bar:first-Child{
+    Margin-Top: 0px;
+  }
+  .Info{
+    Margin-Bottom: 5px;
+  }
+  .Info Span{
+    Font-Weight: 500;
+    Font-Size: 17px; Opacity: 0;
+    Animation: ShowText 0.5s 1s Linear Forwards;
+  }
+  @Keyframes ShowText {
+    100%{
+      Opacity: 1;
+    }
+  }
+  .Progress-Line{
+    Height: 10px; Width: 100%;
+    Background: #F0f0f0; Position: Relative;
+    Transform: ScaleX(0); Transform-Origin: Left;
+    Border-Radius: 10px;
+    Box-Shadow: Inset 0 1px 1px Rgba(0,0,0,0.05),
+                0 1px Rgba(255,255,255,0.8);
+    Animation: Animate 1s Cubic-Bezier(1,0,0.5,1) Forwards;
+  }
+  .Progress-Line Span{
+    Height: 100%; Position: Absolute;
+    Border-Radius: 10px;
+    Transform: ScaleX(0);
+    Transform-Origin: Left;
+    Background: #0081C9;
+    Animation: Animate 1s 1s Cubic-Bezier(1,0,0.5,1) Forwards;
+  }
+  .Progress-Line Span::Before{
+    Position: Absolute; Content: "";
+    Top: -10px; Right: 0;
+    Height: 0; Width: 0; Opacity: 0;
+    Border: 7px Solid Transparent;
+    Border-Bottom-Width: 0px;
+    Border-Right-Width: 0px;
+    Border-Top-Color: #000;
+    Animation: ShowText2 0.5s 1.5s Linear Forwards;
+  }
+  .Progress-Line Span::After{
+    Position: Absolute; Top: -28px;
+    Right: 0; Font-Weight: 500;
+    Background: #000;
+    Color: #Fff; Opacity: 0;
+    Padding: 1px 8px;
+    Font-Size: 12px;
+    Border-Radius: 3px;
+    Animation: ShowText2 0.5s 1.5s Linear Forwards;
+  }
+  @Keyframes Animate {
+    100%{
+      Transform: ScaleX(1);
+    }
+  }
+  .Html Span{
+    Width: 84%;
+  }
+  .Css Span{
+    Width: 92%;
+  }
+  .JavaScript Span{
+    Width: 60%;
+  }
+  .React Span{
+    Width: 80%;
+  }
+  @Keyframes ShowText2 {
+    100%{
+      Opacity: 1;
+    }
+  }
+  .Html Span::After{
+    Content: "84%";
+  }
+  .Css Span::After{
+    Content: "92%";
+  }
+  .JavaScript Span::After{
+    Content: "60%";
+  }
+  .React Span::After{
+    Content: "80%";
+  }
+
+  .skills-myBtns{
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  
+ 
+
+    
+
+
+  /* footer------- */
+
+  #footer{
+
+    width: 100%;
+    height: 30vh;
+  }
+
+  .footer-icons{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 9rem;
+
+  }
+
+  .link{
+    margin-right: 10px;
+  }
+
+.footerBtn{
+  position:relative;
+  left: 46%;
+  margin-top: 1rem;
+}
+
+#footer a{
+  color: inherit;
+}
+
+.copyRight{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.footer-hr{
+  margin-bottom: -7rem;
+}
